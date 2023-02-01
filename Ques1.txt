@@ -1,0 +1,5 @@
+let arrayValue = [13];
+let [x = 5, y = 7, z = 10] = arrayValue
+
+x=13, y=7 , z=10
+Explanation: Because there is only 1 elememt in the array so on destructuring, only value of x will be updated, for all other elements it will be undefined so they will hold their default values. 

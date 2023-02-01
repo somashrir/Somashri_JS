@@ -1,0 +1,7 @@
+let arrayValue = [3,5,7];
+let [x, ,y] = arrayValue;
+
+x=3 y=7
+Explanation: If we dont want to assign a value from array to any element then we will leave a space for that value so on destructuring that value won't be assigned to any element.
+
+   

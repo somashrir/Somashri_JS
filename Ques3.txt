@@ -1,0 +1,5 @@
+const arrayValue = [1, 2, 3, 4];
+const [x, ...y] = arrayValue;
+
+x= 1 y=[2,3,4]
+Explanation:  rest operator(...) combines all the leftover elements in an array and assign that array to the next given variable. Rest element must be the last element.
