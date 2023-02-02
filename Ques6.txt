@@ -1,0 +1,15 @@
+var a = {a: 1};
+var b = {a: 1};
+console.log(a == b);
+console.log(a === b);
+var c = a;
+console.log(a == c);
+console.log(a === c);
+
+false
+false
+true 
+true
+For objects, reference is checked. As a and b refer to different locations so
+
+

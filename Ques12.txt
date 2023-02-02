@@ -1,0 +1,6 @@
+const obj1 = {first: 20, second: 30, first: 50};
+console.log(obj1);
+
+{first: 50, second: 30}
+
+first was 20 then again key first is assigned with value 50 so now key first will have value 50.

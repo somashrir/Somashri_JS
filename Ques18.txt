@@ -1,0 +1,10 @@
+var a = () => {
+console.log("a called");
+};
+a();
+var a = 34;
+a();
+
+a called
+error
+When we declare var a=34 then it converts into a variable and is no more a function so it will throw a error

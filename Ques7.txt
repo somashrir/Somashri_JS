@@ -1,0 +1,8 @@
+console.log(0/0 === 0/0);
+console.log(0/0 == 0/0);
+console.log(Number.isNaN(0/0) === Number.isNaN(0/0));
+
+False
+False
+True
+This is exception in NaN they are not equal to any value not even NaN itself so both console.log will output false and in last one it outputs true because it checks (true=true) which is equal to true.

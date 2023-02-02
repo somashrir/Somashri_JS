@@ -1,0 +1,12 @@
+(function(){
+setTimeout(()=> console.log(1),2000);
+console.log(2);
+setTimeout(()=> console.log(3),0);
+console.log(4);
+})();
+
+2 
+4
+3
+1
+setTimeout function is sent to mount in execution context so first 2 and 4 will be printed in console then 3 as its timeout is 0 and then at last 1.

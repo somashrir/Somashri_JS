@@ -1,0 +1,12 @@
+let a;
+console.log(a === undefined);
+console.log(a === null);
+console.log(a*2);
+console.log(`${a} is the value of a`);
+
+true
+false
+NaN
+undefined is the value of a
+
+a is given space in memory with value undefined as no value is assigned to it. 
