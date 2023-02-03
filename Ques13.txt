@@ -1,26 +1,15 @@
-function f1(object) {
-const obj = { name: "Daniel", age: 27 };
-if (object.age === 20) {
-const obj = { name: "Jack" };
-object.name = "Sam";
-console.log(obj.age);
-} else {
-const obj = { name: "Emily" };
-object = null;
-console.log(obj.name);
-}
-}
-const ob1 = { name: "Mark", age: 20 };
-const ob2 = { name: "Karl", age: 21 };
-f1(ob1);
-console.log(ob1);
-f1(ob2);
-console.log(ob2);
+A regular expression is a sequence of characters that specifies a search pattern in text.
 
-undefined
-{name: "Sam", age: 20 }
-Emily
-{ name: "Karl", age: 21 }
-First one is undefined because we defined a new object obj in which there is key named age.
-Second one will be {name: "Sam", age: 20 } because we updated object.name
-Third one is Emily as we updated value Emily to key name in obj
+function reg(name){
+
+var regx=/^[0-9a-zA-Z]+$/;
+if(name.match(regx))
+{
+return true;
+}
+else{
+return false;
+}
+}
+let name="Somashri123";
+console.log(reg(name));
